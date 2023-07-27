@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn solar power</title>
+    
+    <!--bootstrap Link design-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<!--copy script excel-->
+<script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+<body id="capture">
+<div id="navbar">
+    <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gamepage_2.html">Gamepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./vendor.html">Vendors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./reference.html">reference</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./subsidy.html">subsidy</a>
+          </li>
+          <button class="btn btn-outline-success " id="button1" type="button" onclick="screenshot()"><img class="tool-image" src="./screenshot.png" alt="screenshot"></button>
+      </ul>
+</div>
+    
+
+
+<h1>Vendors</h1>
+
+<table id="table-to-copy">
+  <tr>
+    <th class="name">Vendor name</th>
+    <th class="contact-no">contact no.(click to copy)</th>
+    <th class="emailid">Email ID (click to copy)</th>
+    <th class="view">View more </th>
+    <th class="rating">ratings</th>
+    <th class="fav">Fav</th>
+  </tr>
+  <tr>
+    <td class="name"> vendor 1</td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>contractor@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐⭐⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div>
+  </td>
+  </tr>
+  <tr>
+    <td class="name"> Vendor 2 </td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>vendor294@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor 3 </td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>v3_99@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor  4</td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>vendor4@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor 5 </td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>vendor5@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor 6</td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>v6321dh@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor 7</td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>v989@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      </label>
+    </div></td>
+  </tr>
+  <tr>
+    <td class="name"> vendor 8</td>
+    <td class="contact-no"><span>XXXXXXXXXX</span></td>
+    <td class="emailid"><span>vendor899@mail.com</span></td>
+    <td class="view"><a href="#">view more</a></td>
+    <td class="rating">⭐⭐</td>
+    <td class="fav"><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+      
+      </label>
+    </div></td>
+  </tr>
+</table>
+
+<button id="excel-button" type="button" onclick="copyexcel('xlsx')">Download as excel</button>
+
+<!--bootstrap Link functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<!--javascript Link function-->
+<script src="index.js"></script>
+  </body>
+</html>

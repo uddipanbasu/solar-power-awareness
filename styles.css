@@ -1,0 +1,323 @@
+body{
+    background-color: rgb(219, 255, 244);
+}
+
+h1{
+    text-align: center;
+}
+
+#navbar{
+    background-image: linear-gradient(to right, rgb(108, 255, 206) , rgb(85, 200, 96) , rgb(245, 204, 70));
+    padding-left: 2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height:3.2rem ;
+    
+}
+.nav-item:hover{
+    font-size: 130%;
+    height: 5rem;
+    width: 5rem;
+}
+
+
+#button1 {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  
+  
+}
+
+
+#button1:hover{
+    height: 2.5rem;
+    width: 2.5rem; 
+    position: absolute;
+  top: 0.25rem;
+  right: 0.6rem;
+}
+
+.tool-image {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 0.0rem;
+    right: 0.0rem;
+
+ 
+  
+ 
+}
+
+.tool-image:hover{
+    height: 2.5rem;
+    width: 2.5rem; 
+    filter: invert(100%);
+    
+}
+
+#panel-box{
+  
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(4, 4, 155);
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+  z-index: -1;
+   
+}
+
+
+ .panel-box-sub{
+ 
+   content: 0rem 0rem;
+    margin: 0rem;
+    padding: 0rem; 
+    position: relative;
+   
+ 
+    
+} 
+
+/*target1 plus sizing*/
+#div1{
+    height: 3.5rem;
+    width: 3.5rem;
+    border: solid;
+    display: inline-block;
+    background-image: url("./plus.png");
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+     
+}
+
+#div2{
+    position: relative;
+    left: -2rem;
+   
+}
+
+#div1:hover{
+    height: 4rem;
+    width: 4rem;
+    display:inline-block;
+    
+}
+
+#tool-box{
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(94, 94, 94)) ;
+    height: 40rem;
+    width: 5rem;
+    position: fixed;
+    top: 5rem;
+    padding-left: 2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.tool{
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem 1rem;
+    position: relative;
+   
+}
+.no-bullets{
+    list-style-type: none;
+
+}
+
+.panel{
+    position: absolute;
+    
+}
+
+.house{
+height: 16rem;
+width: 16rem;
+position: absolute;
+z-index: -3;
+left: 30rem;
+/* absolute position is necessary dor panel drop to work */
+}
+
+.electric-applience{
+    border: solid;
+    height: 29rem;
+    width: 23rem;
+    position: absolute;
+    z-index: -4;
+    left: 50rem;
+}
+.whitebox{
+    background-color: aliceblue;
+    height: 2rem;
+    width: 2rem;
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+   margin-right: 3px;
+}
+
+.choice{
+    height: 10rem;
+    width: 7rem;
+    position: absolute;
+    z-index: -5;
+    left: 80rem;
+    background-color: rgb(250, 242, 232); 
+    border: solid;
+}
+
+.option{
+    display: block;
+    margin: 0.5rem 1rem;
+    
+
+}
+
+.fname{
+height: 2rem;
+width: 2rem;
+margin: 2px;
+}
+.fname2{
+    height: 2.5rem;
+    width: 8rem;
+    margin: 2px;
+    }
+.panel-no{
+    position: absolute;
+    top: 25rem;
+    left: 10rem;
+    z-index: -4;
+}
+
+.panel-generated-power{
+    position: absolute;
+    top: 36rem;
+    left: 10rem;
+    z-index: -4;
+}
+.power-required{
+    position: absolute;
+    top: 36rem;
+    left: 48rem;
+    z-index: -4;
+}
+.cal-but{
+    position: absolute;
+    top: 40rem;
+    left: 38rem;
+}
+.power-calculation{
+    position: absolute;
+    top: 43rem;
+    left: 40rem;   
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 3px;
+  }
+  table{
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+    z-index: -1;
+    
+  }
+
+  .name{
+    height: 2rem;
+    width: 15rem;
+    font-size: larger;
+  }
+  .contact-no{
+    height: 2rem;
+    width: 12rem;
+  }
+  .contact-no:hover{
+    height: 2rem;
+    width: 12rem;
+    color: blue;
+  }
+  span:active{
+    height: 2rem;
+    width: 12rem;
+    color: red;
+  }
+  .emailid{
+    height: 2rem;
+    width: 12rem;
+    font-size:small;
+  }
+  .view{
+    height: 2rem;
+    width: 5rem;
+    font-size:small ;
+  }
+  .rating{
+    height: 2rem;
+    width: 7rem;
+  }
+  .fav{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  #excel-button{
+    height: 2rem;
+    width: 10rem;
+background-color: rgb(1, 1, 151);
+position: absolute;
+left: 65rem;
+top: 7rem;
+color: azure;
+border-radius: 6px;
+text-align: center;
+
+  }
+
+  #excel-button:hover{
+    background-color: rgb(0, 0, 97);
+  }
+  #excel-button:active{
+    background-color: rgb(56, 56, 99);
+    position: absolute;
+left: 65.5rem;
+top: 7rem;
+     height: 1.9rem;
+    width: 9.2rem;
+    text-align: center;
+ 
+  }
+
+  .heading{
+    font-size: smaller;
+    margin-bottom: 0rem;
+    font-weight: bold;
+  }
+
+  .under-dev{
+    border: dashed;
+    border-color:  yellow ;
+    background-color: aliceblue;
+    border-width: 15px;
+    height: 20rem;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
