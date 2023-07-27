@@ -283,7 +283,7 @@ table, th, td {
     width: 10rem;
 background-color: rgb(1, 1, 151);
 position: absolute;
-left: 65rem;
+right: 25rem;
 top: 7rem;
 color: azure;
 border-radius: 6px;
@@ -297,7 +297,7 @@ text-align: center;
   #excel-button:active{
     background-color: rgb(56, 56, 99);
     position: absolute;
-left: 65.5rem;
+right: 24.5rem;
 top: 7rem;
      height: 1.9rem;
     width: 9.2rem;
