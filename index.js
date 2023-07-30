@@ -76,7 +76,7 @@ function copyexcel(type, fn, dl) {
 
 // Function to update Form 2
 function updateForm2(number) {
-  const result = number * 430;
+  const result = number * 428;
   document.getElementById('result').value = result;
 }
 
