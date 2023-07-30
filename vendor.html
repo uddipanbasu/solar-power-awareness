@@ -14,26 +14,41 @@
 <!--copy script excel-->
 <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
 <body id="capture">
-<div id="navbar">
-    <ul class="nav nav-underline">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gamepage_2.html">Gamepage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="./vendor.html">Vendors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="./reference.html">reference</a>
-        </li>
-        <li class="nav-item">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gamepage_2.html">game page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./vendor.html">
+              vendor
+            </a>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reference.html">reference</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="./subsidy.html">subsidy</a>
           </li>
-          <button class="btn btn-outline-success " id="button1" type="button" onclick="screenshot()"><img class="tool-image" src="./screenshot.png" alt="screenshot"></button>
-      </ul>
-</div>
+        </ul>
+        
+          
+          <button class="btn btn-outline-success" id="button1" type="button" onclick="screenshot()"><img class="tool-image" src="./screenshot.png" alt="screenshot"></button>
+        
+      </div>
+    </div>
+  </nav>  
+
     
 
 <h1>Vendors</h1>
