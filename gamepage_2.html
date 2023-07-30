@@ -14,33 +14,45 @@
 <script src="https://superal.github.io/canvas2image/canvas2image.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 <body id="capture">
-<div  id="navbar">
-    <ul class="nav nav-underline">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="./index.html">Home</a>
-      
-        <li class="nav-item">
-          <a class="nav-link active" href="gamepage_2.html">Gamepage</a>
-      
-        <li class="nav-item">
-          <a class="nav-link" href="./vendor.html">Vendors</a>
-      
-        <li class="nav-item">
-          <a class="nav-link " href="./reference.html">reference</a>
-      
-        <li class="nav-item">
-            <a class="nav-link" href="./subsidy.html">subsidy</a>
-        
-          <button  class="btn btn-outline-success " id="button1" type="button " onclick="screenshot()"><img class="tool-image" src="./screenshot.png" alt="screenshot"></button >
-        
-          
-      </ul>
-</div >
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./gamepage_2.html">game page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./vendor.html">
+                    vendor
+                  </a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./reference.html">reference</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./subsidy.html">subsidy</a>
+                </li>
+              </ul>
+              
+                
+                <button class="btn btn-outline-success" id="button1" type="button" onclick="screenshot()"><img class="tool-image" src="./screenshot.png" alt="screenshot"></button>
+              
+            </div>
+          </div>
+        </nav>
     
 
 
 
-<h1>game page</h1>
+<h1>game page(under development)</h1>
 
 <div  id="tool-box">
 
@@ -157,7 +169,7 @@
 </div>
 <div class="panel-generated-power">
      <form id="form2">
-          anually power generated <input type="number" id="result">kwh
+          anually power generated <input type="number" id="result" class="fname2">kwh
      </form>
 </div>
 
@@ -185,4 +197,6 @@
 <!--javascript Link function-->
 <script src="index.js"></script>
   </body>
+
+  
 </html>
